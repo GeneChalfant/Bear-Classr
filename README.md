@@ -1,11 +1,11 @@
 ### Bear Classifier
 
-This is an experiment for understanding how the Binder service works for deploying a Jupyter-based web app.
+This is an experiment/demo for understanding how the Binder service works for deploying a Jupyter-based web app.
 
-A web app deployed through Binder. This service accepts an image file upload and returns its classification as one of four types of bear, grizzly, black, teddy, or polar.
+A web app deployed through Binder. This service accepts any image file upload and returns a classification as one of four types of bear, grizzly, black, teddy, or polar.
 
-ML backend is a resnet18 CNN model trained with 378MB of bear images found by Bing Image Search. Developed with Jupyter notebook & fastai/PyTorch libraries.
+Backend is a resnet18 CNN model trained on 378MB of labeled bear images from Bing Image Search.
 
-Estimated accuracy is 98.4%.
+Accuracy is not bad at 98.4% on the test set.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeneChalfant/Bear-Classr/HEAD?labpath=BearClassr.ipynb)
