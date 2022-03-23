@@ -1,5 +1,7 @@
 ### Bear Classifier
 
+This is an experiment for understanding how the Binder service works for deploying a Jupyter-based web app.
+
 A web app deployed through Binder. This service accepts an image file upload and returns its classification as one of four types of bear, grizzly, black, teddy, or polar.
 
 ML backend is a resnet18 CNN model trained with 378MB of bear images found by Bing Image Search. Developed with Jupyter notebook & fastai/PyTorch libraries.
